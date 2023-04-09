@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'numberplate';
+  src: url('../public/LicensePlate-j9eO.ttf');
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+}
+.title{
+  width: 60vw;
+  height: 18vw;
+  margin-left: 20vw;
+  font-size: 15vw;
+  font-weight: 900;
+  margin-top: 35vh;
+  transform: translateY(-8.75vw);
+  color: white;
+  user-select: none;
+}
+.desc{
+  font-size: 2.5vw;
+  transform: translateY(-8.75vw);
+  color:rgb(37, 37, 37);
+  user-select: none;
+}
+.login{
+  transform: translateY(-5.5vw);
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(116, 55, 116);
+  border-width: 3px;
+  min-height: 35px;
+  min-width: 150px;
+  cursor: pointer;
+}

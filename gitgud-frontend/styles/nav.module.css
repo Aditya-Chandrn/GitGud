@@ -1,0 +1,37 @@
+.bar{
+    position: fixed;
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(168, 84, 168);
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+.title{
+    cursor: pointer;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.links{
+    position: relative;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    list-style: none;
+    vertical-align: middle;
+    margin-right: 8vw;
+}
+.links li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2vw;
+    cursor: pointer;
+}
+.img{
+    filter: invert();
+}
